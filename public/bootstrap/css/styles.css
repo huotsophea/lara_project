@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    width: 240px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    overflow-y: auto;
+}
+
+.sidebar-header {
+    text-align: center;
+}
+
+.content {
+    margin-left: 240px;
+}
+
+.card-img-top {
+    object-fit: cover;
+    height: 150px;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sidebar Wram</title>
+    <link rel="stylesheet" href="{{asset('bootstrap/style.css')}}">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <aside class="sidebar">
+        <div class="side-header">
+            <img src="/img/wram.png" alt="logo">
+            <h2>DWRAM.OMC</h2>
+        </div>
+        <ul class="side-link">
+                <h4>
+                    <span>Main Menu</span>
+                    <div class="menu-seperator"></div>
+                </h4>
+                <li>
+                    <a href="dashboard">
+                        <i class="fa fa-tachometer"></i>
+                        Dashboard
+                    </a>
+                </li>
+                <li>
+                    <a href="analytics">
+                        <i class="fa fa-area-chart"></i>
+                        Analytics
+                    </a>
+                </li>
+                <li>
+                    <a href="monitering">
+                        <i class="fa fa-desktop"></i>
+                        Monitering
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-terminal"></i>
+                        Project
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-stack-overflow"></i>
+                        Staging
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-cogs"></i>
+                        Settings
+                    </a>
+                </li>
+                <li>
+                    <a href="flag">
+                        <i class="fa fa-flag"></i>
+                        Flag
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-bell"></i>
+                        Notification
+                    </a>
+                </li>
+                <h4>
+                    <span>Account</span>
+                    <div class="menu-seperater"></div>
+                </h4>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-user-md"></i>
+                        Profile
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-sign-out"></i>
+                        Logout
+                    </a>
+                </li>
+        </ul>
+        <div class="user-account">
+            <div class="user-profile">
+                <img src="/img/phea1.png" alt="profile">
+                <div class="user-detail">
+                    <h3>HUOT SOPHEA</h3>
+                    <span>Web Developer</span>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+</body>
+</html>
